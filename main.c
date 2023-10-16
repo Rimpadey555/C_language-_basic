@@ -115,7 +115,7 @@ int main()
     printf("the value of variable s : %d\n",a7);
 
     // mislanious operator 
-    // ?: ,* etc 
+    // ?: ,* 
     
     return 0;
 }
