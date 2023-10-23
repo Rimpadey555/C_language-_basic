@@ -1,5 +1,8 @@
 // This is c_in_one_vedio by code with harry
 // 1.basic structure
+// 2.Data Type
+// 3.Variable
+// 4.Operator
 
 #include <stdio.h>
 
@@ -106,16 +109,16 @@ int main()
     printf("the bitwise operator of ~ a6 returns %d\n", ~a5); // compliment operator for one operend
 
     printf("\nASSIGNMENT OPERATOR :\n");
-    //==,+=,-=,*=,%= 
-    int a7 =4;
-    printf("the value of variable s : %d\n",a7);
+    //==,+=,-=,*=,%=
+    int a7 = 4;
+    printf("the value of variable s : %d\n", a7);
     a7 *= 5;
-    printf("the value of variable s : %d\n",a7);
+    printf("the value of variable s : %d\n", a7);
     a7 -= 1;
-    printf("the value of variable s : %d\n",a7);
+    printf("the value of variable s : %d\n", a7);
 
-    // mislanious operator 
-    // ?: ,* 
-    
+    // mislanious operator
+    // ?: ,*
+
     return 0;
 }
